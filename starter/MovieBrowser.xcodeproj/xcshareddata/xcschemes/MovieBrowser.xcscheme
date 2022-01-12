@@ -63,7 +63,7 @@
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "themoviedb"
-            value = "add-key-here"
+            value = "add-key-here-you-should-have-one\"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>

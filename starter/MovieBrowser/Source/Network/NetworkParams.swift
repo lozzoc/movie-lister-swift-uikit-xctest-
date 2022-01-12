@@ -8,7 +8,8 @@
 
 import Foundation
 
-fileprivate let apiKey = ProcessInfo.processInfo.environment["themoviedb"]
+/* add api key to environment , see README for additional information.*/
+//fileprivate let apiKey = ProcessInfo.processInfo.environment["themoviedb"]
 
 enum NetworkParams {
     

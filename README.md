@@ -1,15 +1,14 @@
-#### description
-A simple two page ios app.
+#### How to run the app
 
-you can search movies and view detail page of the movie
+1. You will need to insert the api key, it should be inside the starter project that was provided, i removed it because I did not want to expose that publicly.
+2. In order to insert the api key into the app, you wil have to add it manually to environment. Click the MovieBrowser scheme to the left of the device target -> moviebrowser -> "edit scheme" 
+
+#### An Overview
+
+you can search movies and see a detail page of the movie.
 
 #### FAQ
 
-how do i add api key so app will run
--> checkout[ this pull request now ](https://github.com/lozzoc/movie-lister-swift-uikit-xctest-/pull/1), and when you get your own key you can make the changes.
-
-there is an envrioment variable in the target `MovieBrowser` called `"themoviedb"`
-
 
 why are the pictures so small or navigation bar not working?
--> this project targets ios 14, and is not ready yet for iOS 15
+-> this project targets ios 14, and is not ready yet for iOS 15 so make sure to use ios 14 simulator or device.
